@@ -6,11 +6,11 @@ module.exports = {
         filename: 'index.[contenthash].js',
         path: path.resolve(__dirname, 'dist')
     },
-    mode: 'development',
+    mode: 'production',
     module: {
         rules: [
             {
-                test: /.css$/, 
+                test: /.css$, 
                 use: ['style-loader', 'css-loader']
             }
         ]
