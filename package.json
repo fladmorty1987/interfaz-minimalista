@@ -1,7 +1,7 @@
 {
   "name": "interfaz-minimalista",
   "version": "1.0.0",
-  "description": "Una biblioteca minimalista de componentes de interfaz de usuario.",
+  "description": "Una biblioteca minimalista para crear componentes de interfaz de usuario.",
   "main": "dist/index.js",
   "scripts": {
     "build": "webpack --mode production",
